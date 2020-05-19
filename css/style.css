@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/* ========== Header section starts ========== */
+
+/* Navbar starts */
+#header-section .navbar-brand{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+#header-section .navbar .navbar-nav{
+    margin-left: auto;
+}
+#header-section .navbar .navbar-nav .nav-item .nav-link{
+    font-weight: 700;
+    padding: .6rem 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+#header-section .navbar .navbar-nav .nav-item.active .nav-link{
+    color: blue;
+    font-weight: 700;
+}
+#header-section .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+}
+/* Navbar ends */
+
+/* ========== Header section ends ========== */
+
+
+/* ========== Main section starts ========== */
+
+/* Home section starts */
+main #home-section{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: url(../assets/web.jpg);
+    object-fit: cover;
+}
+main #home-section .container .main-row{
+    padding-top: 20vh;
+}
+main #home-section .container .row .left-section h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+main #home-section .container .row .left-section h2::after{
+    content: "";
+    height: 2px;
+    width: 15vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+main #home-section .container .row .left-section h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+}
+main #home-section .container .row .left-section h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+main #home-section .container .row .left-section .row button{
+    width: 100%;
+    height: 3.5rem;
+    border-radius: .3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-width: .2rem;
+    border-color: blue;
+}
+main #home-section .container .row .left-section .row button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.hire-me-btn{
+    color: white;
+    background: blue;
+}
+.hire-me-btn:hover{
+    color: blue;
+    background: white;
+}
+.get-cv-btn{
+    color: blue;
+    background: white;
+}
+.get-cv-btn:hover{
+    color: white;
+    background: blue;
+}
+/* Home section ends */
+
+/* ========== Main section ends ========== */
