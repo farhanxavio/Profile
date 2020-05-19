@@ -46,6 +46,7 @@ main #home-section{
     margin: 0;
     background: url(../assets/web.jpg);
     object-fit: cover;
+    overflow: hidden;
 }
 main #home-section .container .main-row{
     padding-top: 20vh;
@@ -106,5 +107,52 @@ main #home-section .container .row .left-section .row button:focus{
     background: blue;
 }
 /* Home section ends */
+
+/* Services section starts */
+main #services-section{
+    width: 100%;
+    height: 1000px;
+}
+main #services-section .section-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .7rem;
+}
+main #services-section .services-desc{
+    font-size: 1rem;
+    color: #777777;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+main #services-section .row .card{
+    border: none;
+    background: rgba(248, 252, 253, 0.973);
+    border-radius: .3rem;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+main #services-section .row .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main #services-section .row .card i{
+    text-align: center;
+    color: darkblue;
+}
+main #services-section .row .card .card-title{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+main #services-section .row .card .card-text{
+    text-align: center;
+    margin-top: .8rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* Services section ends */
 
 /* ========== Main section ends ========== */
