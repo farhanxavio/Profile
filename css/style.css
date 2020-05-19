@@ -6,6 +6,12 @@ button:focus{
     outline: none;
     box-shadow: none;
 }
+.section-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .7rem;
+}
 
 /* ========== Header section starts ========== */
 
@@ -117,12 +123,6 @@ main #home-section .container .row .left-section .row button:focus{
 main #services-section{
     width: 100%;
 }
-main #services-section .section-heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: .7rem;
-}
 main #services-section .services-desc{
     font-size: 1rem;
     color: #777777;
@@ -164,3 +164,27 @@ main #services-section .row .card .card-text{
 /* Services section ends */
 
 /* ========== Main section ends ========== */
+
+
+/* ========== Footer section starts ========== */
+
+#footer-section{
+    width: 100%;
+    background: url('../assets/footer-bg.png');
+    
+}
+#footer-section h2{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+#footer-section i{
+    margin: 2rem 2.5rem 3rem 2.5rem;
+    color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+#footer-section i:hover{
+    color: blue;
+}
+
+/* ========== Footer section ends ========== */
