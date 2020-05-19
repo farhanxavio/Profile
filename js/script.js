@@ -4,3 +4,7 @@ $(function(){
         $nav.toggleClass('scrolled',$(this).scrollTop() > $nav.height())
     })
 })
+
+$('.navbar-toggler').on('click',() => {
+    $('#main-navbar').toggleClass('pressed')
+})
