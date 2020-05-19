@@ -193,3 +193,28 @@ main #services-section .row .card .card-text{
 }
 
 /* ========== Footer section ends ========== */
+
+/* Go to top button */
+#to-top{
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 10px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: rgba(128, 128, 128, .35); 
+    color: white;
+    cursor: pointer; 
+    border-radius: 50%;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    transition: all .3s ease;
+}
+#to-top:hover{
+    background-color: rgba(128, 128, 128, 1);
+}
+#to-top.display{
+    display: block;
+}
