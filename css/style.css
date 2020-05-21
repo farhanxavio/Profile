@@ -30,7 +30,7 @@ button:focus{
     text-transform: uppercase;
     color: black;
 }
-#header-section .navbar .navbar-nav .nav-item.active .nav-link{
+#header-section .navbar .navbar-nav .nav-item .nav-link.active{
     color: blue;
     font-weight: 700;
 }
