@@ -82,8 +82,9 @@ main #home-section .container .row .left-section h2::after{
 }
 main #home-section .container .row .left-section h1{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
 }
 main #home-section .container .row .left-section h3{
     font-size: 1.3rem;
@@ -123,6 +124,51 @@ main #home-section .container .row .left-section .row button:focus{
     background: blue;
 }
 /* Home section ends */
+
+/* About section starts */
+main #about-section .container{
+    background: rgb(47, 44, 61);
+    overflow: hidden;
+    padding: 2rem 0 3rem 0;
+}
+main #about-section .photo{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+main #about-section .name{
+    text-transform: uppercase;
+}
+
+@media (max-width:538px){
+    main #about-section .name{
+        font-size: 1.8rem;
+    }
+    main #about-section h3{
+        font-size: 1.4rem;
+    }
+    main #about-section h5{
+        font-size: 1rem;
+    }
+}
+@media (max-width:768px){
+    main #about-section .photo{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    main #about-section .name{
+        font-size: 2rem;
+    }
+    main #about-section h3{
+        font-size: 1.4rem;
+    }
+    main #about-section h5{
+        font-size: 1rem;
+    }
+}
+/* About section ends */
 
 /* Services section starts */
 main #services-section{
