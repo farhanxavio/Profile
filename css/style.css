@@ -1,8 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 body{
     padding: 0;
     margin: 0;
@@ -19,7 +14,6 @@ button:focus{
 }
 
 /* ========== Header section starts ========== */
-
 /* Navbar starts */
 #header-section .navbar-brand{
     font-weight: 700;
@@ -168,8 +162,11 @@ main #about-section h5{
     transition: all .2s;
 }
 main #about-section .about-view-more button{
-    font-size: 1.2rem;
     font-weight: 500;
+}
+main #about-section .about-view-more button:focus{
+    outline: none;
+    box-shadow: none;
 }
 main #about-section .about-view-more i{
     padding-left: .2rem;
@@ -328,7 +325,6 @@ main #contact-section .btn-submit{
     font-size: 1.5rem;
 }
 #footer-section i{
-    margin: 2rem 2.5rem 3rem 2.5rem;
     color: rgba(0, 0, 0, .2);
     cursor: pointer;
     transition: all .2s ease;

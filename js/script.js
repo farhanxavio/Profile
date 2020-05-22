@@ -30,6 +30,11 @@ $("#to-top").click(function () {
     $("html, body").animate({scrollTop: 0}, 100);
 });
 
+// View more - About section
+function viewMore(){
+    
+}
+
 // Owl carousel
 // $(".owl-carousel").owlCarousel({
 //     loop:true,
