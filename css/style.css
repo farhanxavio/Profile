@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
@@ -126,10 +131,15 @@ main #home-section .container .row .left-section .row button:focus{
 /* Home section ends */
 
 /* About section starts */
+main #about-section{
+    padding-top: 7rem;
+}
 main #about-section .container{
-    background: rgb(47, 44, 61);
+    background: url(../assets/subscribe-bg.png);
+    /* background: rgb(47, 44, 61); */
     overflow: hidden;
-    padding: 2rem 0 3rem 0;
+    padding-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main #about-section .photo{
     object-fit: cover;
@@ -138,6 +148,41 @@ main #about-section .photo{
 }
 main #about-section .name{
     text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+}
+main #about-section .name:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+main #about-section h3{
+    font-weight: 500;
+    transition: all .2s;
+}
+main #about-section .college:hover,main #about-section .email span:hover,main #about-section .mobile span:hover{
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+}
+main #about-section h5{
+    font-weight: 400;
+    transition: all .2s;
+}
+main #about-section .about-view-more button{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+main #about-section .about-view-more i{
+    padding-left: .2rem;
+}
+main #about-section .about-view-more button,main #about-section .about-view-more i{
+    transition: all .3s;
+    font-size: 1rem;
+}
+main #about-section .about-view-more:hover button{
+    transform: scale(1.1);
+}
+main #about-section .about-view-more:hover i{
+    padding-left: .5rem;
 }
 
 @media (max-width:538px){
@@ -173,6 +218,7 @@ main #about-section .name{
 /* Services section starts */
 main #services-section{
     width: 100%;
+    padding-top: 10rem;
 }
 main #services-section .services-desc{
     font-size: 1rem;
@@ -214,7 +260,23 @@ main #services-section .row .card .card-text{
 }
 /* Services section ends */
 
+/* Certificates section starts */
+/* main #certificates-section{
+    height: 500px;
+    padding-top: 5rem;
+}
+main #certificates-section .item{
+    background: blueviolet;
+    width: 95%;
+    margin: 0 auto;
+    height: 500px;
+} */
+/* Certificates section ends */
+
 /* Contact section starts */
+main #contact-section{
+    padding-top: 10rem;
+}
 main #contact-section .container{
     background: url('../assets/subscribe-bg.png');
     padding: 4rem 0;
@@ -257,6 +319,8 @@ main #contact-section .btn-submit{
     width: 100%;
     background: url('../assets/footer-bg.png');
     padding-bottom: 7rem;
+    margin-top: 8rem;
+    padding-top: 5rem;
     
 }
 #footer-section h2{

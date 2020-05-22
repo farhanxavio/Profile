@@ -1,4 +1,5 @@
 
+// Scroll
 $(function(){
     $(document).scroll(function(){
         var $nav = $('#main-navbar')
@@ -27,5 +28,10 @@ $('.navbar-toggler').on('click',() => {
 
 $("#to-top").click(function () {
     $("html, body").animate({scrollTop: 0}, 100);
- });
+});
 
+// Owl carousel
+// $(".owl-carousel").owlCarousel({
+//     loop:true,
+//     items:2
+// });
