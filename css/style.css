@@ -9,16 +9,22 @@ button:focus{
 .section-heading{
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: .7rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #2b4b80;
 }
 
 /* ========== Header section starts ========== */
 /* Navbar starts */
-#header-section .navbar-brand{
-    font-weight: 700;
-    text-transform: uppercase;
+#header-section .git-btn{
+    border: 2px solid black;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    cursor: pointer;
     color: black;
+}
+#header-section .git-img{
+    width: 1.5rem;
 }
 #header-section .navbar .navbar-nav{
     margin-left: auto;
@@ -59,7 +65,6 @@ main #home-section{
     height: 100vh;
     padding: 0;
     margin: 0;
-    background: url(../assets/web.jpg);
     object-fit: cover;
     overflow: hidden;
 }
@@ -80,10 +85,10 @@ main #home-section .container .row .left-section h2::after{
     transform: translateY(-10px);
 }
 main #home-section .container .row .left-section h1{
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #2b4b80;
+    font-size: 3.7rem;
+    font-family: 'Oswald', sans-serif;
 }
 main #home-section .container .row .left-section h3{
     font-size: 1.3rem;
@@ -130,7 +135,6 @@ main #about-section{
 }
 main #about-section .container{
     background: url(../assets/subscribe-bg.png);
-    /* background: rgb(47, 44, 61); */
     overflow: hidden;
     padding-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -145,16 +149,13 @@ main #about-section .name{
     font-weight: 700;
     cursor: pointer;
     transition: all .2s;
-}
-main #about-section .name:hover{
-    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Poppins', sans-serif;
 }
 main #about-section h3{
     font-weight: 500;
     transition: all .2s;
 }
 main #about-section .college:hover,main #about-section .email span:hover,main #about-section .mobile span:hover{
-    text-shadow: 2px 2px 4px #000000;
     cursor: pointer;
 }
 main #about-section h5{
@@ -247,6 +248,7 @@ main #services-section .row .card .card-title{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    color: #2b4b80;
     text-align: center;
 }
 main #services-section .row .card .card-subtitle{
