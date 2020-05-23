@@ -35,6 +35,9 @@ function viewMore(){
     
 }
 
+// AOS init
+AOS.init()
+
 // Owl carousel
 // $(".owl-carousel").owlCarousel({
 //     loop:true,
